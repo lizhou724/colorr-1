@@ -13,4 +13,15 @@ const hexToRgb = (hex) => {
   } : null;
 };
 
-export { hexToRgb };
+const hexaToGRBa = (hexa) => {
+  const inputHexa = hexa.replace('#', '');
+  const r = parseInt(inputHexa.substring(0, 2), 16);
+  const g = parseInt(inputHexa.substring(2, 4), 16);
+  const b = parseInt(inputHexa.substring(4, 6), 16);
+  const a = parseInt(inputHexa.substring(6, 8), 16) / 100;
+  return {
+    r, g, b, a,
+  };
+};
+
+export { hexToRgb, hexaToGRBa };

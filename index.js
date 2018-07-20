@@ -1,5 +1,5 @@
 import ColorRanges from './def/color_range';
-import { hexToRgb } from './libs/converter';
+import { hexToRgb, hexaToGRBa } from './libs/converter';
 import { isolateAHexaColorString } from './libs/iso';
 
 const bestTextColor = (backgroundColor) => {
@@ -48,4 +48,10 @@ const lightenDarkenColor = (color, amt = -50) => {
   }
 };
 
-export { lighterColor, darkerColor, bestTextColor };
+const getGRBAStringFromHexa = (hexaString) => {
+  const rbga = hexaToGRBa(hexaString);
+  const { r, g, b, a } = rbga;
+  return `rgba(${r}, ${g}, ${b}, ${a})`;
+};
+
+export { lighterColor, darkerColor, bestTextColor, getGRBAStringFromHexa };
