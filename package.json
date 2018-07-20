@@ -1,0 +1,34 @@
+{
+  "name": "colorr",
+  "version": "1.0.1",
+  "description": "This is a helper for CSS color calculate - Javascript - Nodejs",
+  "main": "index",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKMultimedia/colorr.git"
+  },
+  "keywords": [
+    "color",
+    "css",
+    "helper",
+    "UI",
+    "UX"
+  ],
+  "author": "TKMultimedia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TKMultimedia/colorr/issues"
+  },
+  "homepage": "https://github.com/TKMultimedia/colorr#readme",
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}

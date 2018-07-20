@@ -1,0 +1,58 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/.babel.json": true,
+    "**/.config": true,
+    "**/.gitattributes": true,
+    "**/.dockerignore": true,
+    "**/.eslintcache": true,
+    "**/.jsbeautifyrc": true,
+    "**/.npmrc": true,
+    "**/.nvmrc": true,
+    "**/.editorconfig": true,
+    "**/jsconfig.json": true,
+    "**/nodemon.json": true,
+    "**/npm-debug.log*": true,
+    "**/project.xcworkspace": true,
+    "**/xcuserdata": true,
+    "**/xcshareddata": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/build": true,
+    "**/assets": false,
+    "**/data": true,
+    "**/__mocks__/**": true,
+    "**/coverage/**": true,
+    "**/npm-shrinkwrap.json": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/yarn-error.log": true,
+    "**/lerna-debug.log": true,
+    "**/_book": true
+  },
+  "search.exclude": {
+    "**/.vscode": true,
+    "**/.gitignore": true,
+    "**/.babelrc": true,
+    "**/.eslintrc": true,
+    "**/public/**": true,
+    "**/__snapshots__/**": true,
+    "**/api/json": true,
+    "**/lib": true,
+    "**/notes": true
+  },
+  "editor.rulers": [
+    // 120
+  ],
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "eslint.enable": true,
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "files.eol": "\n"
+}
